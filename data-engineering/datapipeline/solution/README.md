@@ -13,12 +13,12 @@ Using the json module, the dictionary was saved to a json file for a single year
 The code was created in a python virtual environment, with a generated requirements.txt file.
 
 To run the code the following commands need to be run:
-
+```
 cd engineering-recruitment-assignments/data-engineering/datapipeline/solution
 pip install -r requirements.txt
 python main.py
 pytest test.py
-
+```
 
 The code will overwrite the existing json files in the results folder and generate new ones.
 
